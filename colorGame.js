@@ -46,7 +46,7 @@ function setupSquares() {
                 changeColors(clickedColor);
                 // h1.style.background = clickedColor;
 
-                // Reset the color after 2 seconds
+                // Reset the color after 1 seconds
                 setTimeout(function () {
                     reset();
                 }, 1000);
