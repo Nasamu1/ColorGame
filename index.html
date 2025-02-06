@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
+</head>
+
+<body>
+	<div data-testid="colorBox" id="colorDisplay"> </div>
+
+	<h1 data-testid="gameInstructions">
+
+		Choose The Correct Color
+	</h1>
+
+	<div id="stripe">
+		<button data-testid="newGameButton" id="reset">New Game</button>
+		<span data-testid="gameStatus" id="message"></span>
+		<button class="mode">Easy</button>
+		<button class="mode selected">Hard</button>
+		<span data-testid="score" class="scoreCount" id="score">0</span>
+	</div>
+
+	<div data-testid="colorOption" id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+
+	<script type="text/javascript" src="colorGame.js"></script>
+
+</body>
+
+</html>
